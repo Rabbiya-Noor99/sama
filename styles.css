@@ -1,0 +1,90 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body {
+    background-color: #15032b5d; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./Untitled\ design\ \(6\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    background-color: #bea925; 
+    border-radius: 10px;
+    overflow: hidden;
+    height: auto;
+}
+.signup-form {
+flex: 1;
+display: flex;
+padding: 150px;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+.signup-form h2 {
+    margin-bottom: 20px;
+    color: black;
+    justify-content: center;
+}
+.input-box {
+    margin-bottom: 20px;
+    width: 100%;
+}
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+}
+.forgot {
+    display: block;
+    text-align: right;
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: black;
+}
+.btn {
+    width: 100%;
+    background: #6f1d1b;
+    color:white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.register-link{
+    text-align: center;
+    margin-top: 10px;
+}
+.register-link a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+}
+.side-image{
+    flex: 1;
+    background: url(upscalemedia-transformed.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    padding: 150px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
